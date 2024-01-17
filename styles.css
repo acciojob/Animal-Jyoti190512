@@ -1,4 +1,11 @@
 /*  your css code here. If applicable */
+body{
+	background-color:gray;
+}
+#photo-heading {
+	color:white;
+	text-align:center;
+}
   #animal-photos {
             display: flex;
             flex-wrap: wrap;
@@ -11,5 +18,5 @@
             height: 150px;
             object-fit: cover;
             border: 1px solid #ddd;
-            border-radius: 5px;
+            border-radius: 10px;
         }
