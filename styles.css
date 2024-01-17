@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+  #animal-photos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .animal-photo {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
